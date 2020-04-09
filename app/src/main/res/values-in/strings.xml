@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kursus Satu</string>
+    <string name="username">NAMA USER</string>
+    <string name="password">KATA KUNCI</string>
+    <string name="or">ATAU</string>
+    <string name="login">MASUK</string>
+    <string name="forgotPw">LUPA KATA KUNCI?</string>
+    <string name="dontHave">Tidak punya akun? <b>Daftar</b></string>
+    <string name="change_language">Pilih Bahasa</string>
+    <string name="log_in_with_facebook">Masuk Facebook</string>
+    <string name="empty">Kosong</string>
+    <string name="falsed">Salah</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="daftar">Daftar</string>
+    <string name="done">Permintaan Berhasil</string>
+    <string name="emptyy">Data kosong, mohon lengkapi</string>
+
+    <string-array name="language">
+        <item>Inggris</item>
+        <item>Indonesia</item>
+    </string-array>
+</resources>

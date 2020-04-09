@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Course One</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="or">OR</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotPw">Forgot Password?</string>
+    <string name="dontHave">Don\'t have a Account? <b>Sign Up</b></string>
+    <string name="change_language">Change Language</string>
+    <string name="log_in_with_facebook">Log in with Facebook</string>
+    <string name="empty">Empty</string>
+    <string name="falsed">False</string>
+    <string name="welcome">Welcome</string>
+    <string name="daftar">Sign Up</string>
+    <string name="done">Request done</string>
+    <string name="emptyy">Data empty, please complete</string>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Indonesia</item>
+    </string-array>
+</resources>
