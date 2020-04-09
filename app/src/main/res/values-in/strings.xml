@@ -16,6 +16,7 @@
     <string name="daftar">Daftar</string>
     <string name="done">Permintaan Berhasil</string>
     <string name="emptyy">Data kosong, mohon lengkapi</string>
+    <string name="pw">Kata Kunci Anda</string>
 
     <string-array name="language">
         <item>Inggris</item>

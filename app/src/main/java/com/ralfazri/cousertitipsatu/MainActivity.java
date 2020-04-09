@@ -51,7 +51,16 @@ public class MainActivity extends AppCompatActivity {
         tvFotgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Password Anda ''1234''", Toast.LENGTH_SHORT).show();
+                if (tvUsername.getText().toString().equalsIgnoreCase("")){
+                    Toast.makeText(MainActivity.this, getString(R.string.username)+" "+
+                            getString(R.string.empty), Toast.LENGTH_SHORT).show();
+                }else if (tvUsername.getText().toString().equals("saya")){
+                    Toast.makeText(MainActivity.this, getString(R.string.pw) + " ''1234''",
+                            Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(MainActivity.this, "Data " +  getString(R.string.empty), Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
 

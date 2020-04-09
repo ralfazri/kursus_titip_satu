@@ -11,9 +11,12 @@
         android:hardwareAccelerated="false"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpActivity"></activity>
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SignUpActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".DashboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
